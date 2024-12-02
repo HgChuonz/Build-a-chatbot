@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bong Bóng Chat</title>
+    <link rel="stylesheet" href="bongbong.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-bubble" onclick="toggleChat()">
+            <div class="chat-icon">💬</div>
+        </div>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">Chat</div>
+            <div class="chat-content">
+                <p>Hello! How can I help you?</p>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type a message...">
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="bongbong.js"></script>
+</body>
+</html>
